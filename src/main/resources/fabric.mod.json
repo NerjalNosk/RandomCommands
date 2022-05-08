@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "random_commands",
+  "version": "${version}",
+  "name": "Random Commands",
+  "description": "Some random commands cuz why not use them?",
+  "authors": [
+    "Nerjal Nosk"
+  ],
+  "contact": {
+    "email": "nosk.nerjal@gmx.com",
+    "discord": "329574958332248074"
+  },
+  "license": "MIT",
+  "icon": "assets/random_commands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nerjal.random_commands.Random_commands"
+    ]
+  },
+  "mixins": [
+    "random_commands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "fabric": "*",
+    "minecraft": "1.16-"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/ckMCAtVrBW"
+      }
+    }
+  }
+}
